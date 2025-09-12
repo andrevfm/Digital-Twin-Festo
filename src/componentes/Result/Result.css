@@ -1,0 +1,26 @@
+.resultado-container {
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 1000px;
+  text-align: center;
+  font-weight: bold;
+  color: white; /* texto branco por padrão */
+}
+
+/* Estilo quando NÃO deu falha (resultado === 0) */
+.resultado-container.sucesso {
+  background-color: #28a745; /* verde forte */
+  border: 1px solid #1e7e34;
+}
+
+/* Estilo quando DEU falha (resultado === 1) */
+.resultado-container.falha {
+  background-color: #dc3545; /* vermelho forte */
+  border: 1px solid #bd2130;
+}
+
+.resultado-texto {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
