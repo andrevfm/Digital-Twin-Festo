@@ -53,7 +53,7 @@ const ActuatorDsbcDisplay = () => {
         </div>
 
         <div className="chart-card">
-          <h2 className="chart-title">Hstórico de Pressão:</h2>
+          <h2 className="chart-title">Histórico de Pressão:</h2>
           <ActuatorPressureChart
             tagV1="PressaoEntradaDSBC"
             tagV2="PressaoSaidaDSBC"
